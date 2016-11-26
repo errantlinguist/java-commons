@@ -17,16 +17,17 @@ package com.github.errantlinguist;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.function.Supplier;
 
 /**
  * A factory for efficiently building strings, implemented as a wrapper class
- * for a {@link StringBuilder} which clears it whenever {@link #create()} is
+ * for a {@link StringBuilder} which clears it whenever {@link #get()} is
  * called. Therefore, just like {@code StringBuilder}, it is not thread-safe.
  *
  * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
  * @since 2012-04-13
  */
-public final class StringBuilderFactory implements Appendable, CharSequence, Serializable {
+public final class StringBuilderFactory implements Appendable, CharSequence, Serializable, Supplier<String> {
 
 	/**
 	 * The generated serial version UID.
@@ -219,18 +220,6 @@ public final class StringBuilderFactory implements Appendable, CharSequence, Ser
 		return builder.charAt(index);
 	}
 
-	/**
-	 * Creates a new string and {@link #reset() resets} the
-	 * {@code StringBuilderFactory}.
-	 *
-	 * @return A new string with all the previously-appended characters.
-	 */
-	public String create() {
-		final String string = builder.toString();
-		reset();
-		return string;
-	}
-
 	/*
 	 * (non-Javadoc)
 	 *
@@ -256,6 +245,19 @@ public final class StringBuilderFactory implements Appendable, CharSequence, Ser
 			return false;
 		}
 		return true;
+	}
+
+	/**
+	 * Creates a new string and {@link #reset() resets} the
+	 * {@code StringBuilderFactory}.
+	 *
+	 * @return A new string with all the previously-appended characters.
+	 */
+	@Override
+	public String get() {
+		final String string = builder.toString();
+		reset();
+		return string;
 	}
 
 	/**

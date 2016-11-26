@@ -148,7 +148,7 @@ public class StringBuilderFactoryFormatter implements Closeable, Flushable {
 	 */
 	public String format(final Locale l, final String format, final Object... args) {
 		formatter.format(l, format, args);
-		return stringBuilderFactory.create();
+		return stringBuilderFactory.get();
 	}
 
 	/**
@@ -173,7 +173,7 @@ public class StringBuilderFactoryFormatter implements Closeable, Flushable {
 	 */
 	public String format(final String format, final Object... args) {
 		formatter.format(format, args);
-		return stringBuilderFactory.create();
+		return stringBuilderFactory.get();
 
 	}
 
