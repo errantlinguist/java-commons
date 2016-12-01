@@ -23,7 +23,7 @@ import java.util.List;
  *
  * @param <T>
  *            The type of the {@link #data} the node contains.
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  */
 public class Node<T> {
 

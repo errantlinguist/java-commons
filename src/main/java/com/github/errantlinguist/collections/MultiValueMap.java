@@ -36,7 +36,7 @@ import java.util.function.Supplier;
  *            The type of {@code Collection} object used to contain the values
  *            for each key.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-11-03
  */
 public final class MultiValueMap<K, V, C extends Collection<V>> implements Map<K, C>, Serializable {

@@ -27,7 +27,7 @@ import java.util.Objects;
  * instance for generating strings as formatted output. <strong>NOTE:</strong>
  * This class is not thread-safe!
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2012-04-13
  */
 public class StringBuilderFactoryFormatter implements Closeable, Flushable {

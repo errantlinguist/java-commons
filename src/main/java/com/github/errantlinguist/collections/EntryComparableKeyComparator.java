@@ -22,7 +22,7 @@ import java.util.Map.Entry;
  * A {@link Comparator} which compares two {@link Entry} objects based on their
  * respective {@link Comparable} keys.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-10-15
  *
  */

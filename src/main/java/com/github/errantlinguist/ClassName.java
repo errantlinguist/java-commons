@@ -19,7 +19,7 @@ package com.github.errantlinguist;
  * A utility class for miscellaneous methods for {@link Class class}-related
  * meta-information.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  */
 public final class ClassName {
 

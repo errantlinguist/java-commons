@@ -24,7 +24,7 @@ import java.util.function.Supplier;
  * for a {@link StringBuilder} which clears it whenever {@link #get()} is
  * called. Therefore, just like {@code StringBuilder}, it is not thread-safe.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2012-04-13
  */
 public final class StringBuilderFactory implements Appendable, CharSequence, Serializable, Supplier<String> {

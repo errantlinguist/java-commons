@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * A utility class for manipulating {@link Collection} elements.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-10-30
  *
  */

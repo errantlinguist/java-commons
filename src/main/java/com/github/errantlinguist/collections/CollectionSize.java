@@ -21,7 +21,7 @@ import java.util.Collections;
 /**
  * A utility class for manipulating the size of {@link Collection} objects.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-10-15
  *
  */

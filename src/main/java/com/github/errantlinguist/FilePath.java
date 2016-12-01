@@ -20,7 +20,7 @@ import java.io.IOException;
 /**
  * A utility class for manipulating file/directory paths.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-11-03
  *
  */

@@ -22,7 +22,7 @@ import java.util.function.Supplier;
  * A factory for creating {@link TreeSet} instances which hold {@link Integer}
  * objects as values.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-11-03
  *
  */

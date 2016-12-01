@@ -25,7 +25,7 @@ import java.util.Properties;
  * <code>com/foo/bar/SomeClass.properties</code> for the class
  * <code>com.foo.bar.SomeClass</code>.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2016-12-01
  *
  */

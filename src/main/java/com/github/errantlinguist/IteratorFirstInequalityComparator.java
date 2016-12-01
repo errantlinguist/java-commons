@@ -28,7 +28,7 @@ import java.util.Iterator;
  * @param <E>
  *            the type of the objects to compare.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  * @since 2013-10-16
  *
  */

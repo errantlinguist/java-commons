@@ -28,7 +28,7 @@ import java.util.Set;
  * maintaining a {@link List} of the map's values based on the respective
  * {@link Integer} keys mapping to each value.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  *
  */
 public final class ReverseLookupIntegerKeyMap<V> implements Map<Integer, V>, Serializable {

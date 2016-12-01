@@ -26,7 +26,7 @@ import java.util.List;
  * @param <D>
  *            The type of the {@link Node#getData() data} the nodes contain.
  *
- * @author <a href="mailto:errantlinguist@gmail.com">Todd Shore</a>
+ * @author <a href="mailto:errantlinguist+github@gmail.com">Todd Shore</a>
  *
  */
 public class Tree<D> {
