@@ -26,7 +26,7 @@ import java.util.function.Supplier;
  * @since 2013-11-03
  *
  */
-public final class IntegerTreeSetFactory implements Supplier<TreeSet<Integer>> {
+final class IntegerTreeSetFactory implements Supplier<TreeSet<Integer>> {
 
 	/**
 	 * {@link SingletonHolder} is loaded on the first execution of
@@ -49,7 +49,7 @@ public final class IntegerTreeSetFactory implements Supplier<TreeSet<Integer>> {
 	 *
 	 * @return The singleton instance.
 	 */
-	public static IntegerTreeSetFactory getInstance() {
+	static IntegerTreeSetFactory getInstance() {
 		return SingletonHolder.INSTANCE;
 	}
 
