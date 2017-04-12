@@ -141,7 +141,7 @@ public final class MultiValueMap<K, V, C extends Collection<V>> implements Map<K
 	 * A {@link Collection} of all elements for all keys in the
 	 * {@link #getDecorated() decorated map}.
 	 */
-	private final transient Collection<V> allValues;
+	private final Collection<V> allValues;
 
 	/**
 	 * The decorated {@link Map} instance.

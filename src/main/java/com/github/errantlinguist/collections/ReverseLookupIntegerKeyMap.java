@@ -53,7 +53,7 @@ public final class ReverseLookupIntegerKeyMap<V> implements Map<Integer, V>, Ser
 	 * The backing {@link List} containing the indexed values of
 	 * {@link #decorated}.
 	 */
-	private transient final List<V> indexedValues;
+	private final List<V> indexedValues;
 
 	/**
 	 *

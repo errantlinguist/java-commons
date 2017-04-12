@@ -55,7 +55,7 @@ public final class ReverseLookupList<E> implements Serializable, List<E> {
 	 * The reverse-lookup index map for the elements of {@link #decorated the
 	 * decorated <code>List</code>}.
 	 */
-	private transient MultiValueMap<Object, Integer, NavigableSet<Integer>> reverseLookupMap;
+	private MultiValueMap<Object, Integer, NavigableSet<Integer>> reverseLookupMap;
 
 	/**
 	 * @param decorated
