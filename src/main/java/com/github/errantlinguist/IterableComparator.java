@@ -63,7 +63,7 @@ public final class IterableComparator<E extends Comparable<E>> implements Compar
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -90,7 +90,7 @@ public final class IterableComparator<E extends Comparable<E>> implements Compar
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override

@@ -80,8 +80,8 @@ package edu.berkeley.cs;
  * <dt>{@link #EX_OSERR}</dt>
  * <dd>An operating system error has been detected. This is intended to be used
  * for such things as "cannot fork", "cannot create pipe", or the like. It
- * includes things like <code>getuid</code> returning a user that does not exist in the
- * <code>passwd</code> file.</dd>
+ * includes things like <code>getuid</code> returning a user that does not exist
+ * in the <code>passwd</code> file.</dd>
  * <dt>{@link #EX_OSFILE}</dt>
  * <dd>Some system file (e.g.&nbsp;{@code /etc/passwd}, {@code /etc/utmp}, etc.)
  * does not exist, cannot be opened, or has some sort of error (e.g.&nbsp;syntax
@@ -92,8 +92,8 @@ package edu.berkeley.cs;
  * <dd>An error occurred while doing IO on some file.</dd>
  * <dt>{@link #EX_TEMPFAIL}</dt>
  * <dd>Temporary failure, indicating something that is not really an error. In
- * <code>sendmail</code>, this means that a mailer (e.g.) could not create a connection, and
- * the request should be re-attempted later.</dd>
+ * <code>sendmail</code>, this means that a mailer (e.g.) could not create a
+ * connection, and the request should be re-attempted later.</dd>
  * <dt>{@link #EX_PROTOCOL}</dt>
  * <dd>The remote system returned something that was "not possible" during a
  * protocol exchange.</dd>
@@ -149,8 +149,8 @@ public final class SysExits {
 	/**
 	 * An operating system error has been detected. This is intended to be used
 	 * for such things as "cannot fork", "cannot create pipe", or the like. It
-	 * includes things like <code>getuid</code> returning a user that does not exist in the
-	 * <code>passwd</code> file.
+	 * includes things like <code>getuid</code> returning a user that does not
+	 * exist in the <code>passwd</code> file.
 	 */
 	public static final int EX_OSERR = 71;
 	/**
@@ -171,8 +171,8 @@ public final class SysExits {
 	public static final int EX_SOFTWARE = 70;
 	/**
 	 * Temporary failure, indicating something that is not really an error. In
-	 * <code>sendmail</code>, this means that a mailer (e.g.) could not create a connection,
-	 * and the request should be re-attempted later.
+	 * <code>sendmail</code>, this means that a mailer (e.g.) could not create a
+	 * connection, and the request should be re-attempted later.
 	 */
 	public static final int EX_TEMPFAIL = 75;
 	/**

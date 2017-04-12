@@ -51,8 +51,8 @@ public final class ListIndex {
 			final List<? extends Object> list) {
 		assert list != null;
 		final Map<Object, NavigableSet<Integer>> decoratedMap = new HashMap<>(list.size());
-		final MultiValueMap<Object, Integer, NavigableSet<Integer>> result = new MultiValueMap<>(
-				decoratedMap, IntegerTreeSetFactory.getInstance());
+		final MultiValueMap<Object, Integer, NavigableSet<Integer>> result = new MultiValueMap<>(decoratedMap,
+				IntegerTreeSetFactory.getInstance());
 
 		for (final ListIterator<? extends Object> listIter = list.listIterator(); listIter.hasNext();) {
 			final int nextIndex = listIter.nextIndex();
